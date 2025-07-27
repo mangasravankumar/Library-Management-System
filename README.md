@@ -16,21 +16,24 @@ MySQL: As the database for storing books, students, and transactions.
 JDBC: For connecting Java with MySQL
 
 Project Structure:
-src/
- └── library/
-      ├── AddBook.java
-      ├── BackgroundPanel.java
-      ├── Connect.java
-      ├── Dashboard.java
-      ├── IssueBook.java
-      ├── ReturnBook.java
-      ├── SignIn.java
-      ├── StudentRegistration.java
-      ├── ViewBooks.java
-      └── images/
-            ├── addbook.jpg
-            ├── homepage.jpg
-            └── loginpage.jpg
+Library-Management-System/
+│
+├── src/
+│   ├── AddBook.java
+│   ├── IssueBook.java
+│   ├── ReturnBook.java
+│   ├── Login.java
+│   ├── Dashboard.java
+│   └── ...
+│
+├── images/
+│   └── (all UI icons and backgrounds)
+│
+├── nbproject/
+│   └── (NetBeans project settings)
+│
+├── README.md
+└── build.xml
 
 
 Database Setup:
